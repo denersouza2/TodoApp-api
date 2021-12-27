@@ -23,7 +23,7 @@ import io.github.denersouza.todo.repository.TodoRepository;
 
 @RestController
 @RequestMapping("/api/todo")
-@CrossOrigin("http://localhost:4200")
+@CrossOrigin("*")
 public class TodoController {
 	@Autowired
 	private TodoRepository repository;
